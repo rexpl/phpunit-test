@@ -13,6 +13,6 @@ class TestClass
      */
     public static function randomNumber(): int
     {
-        return random_int(1, 10_000);
+        return random_bytes(1, 10_000);
     }
 }
